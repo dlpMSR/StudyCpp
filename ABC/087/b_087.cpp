@@ -11,7 +11,7 @@ int main()
     {
         for (int j = 0; j <= B; ++j)
         {
-            for (int k = 0; j <= C; ++k)
+            for (int k = 0; k <= C; ++k)
             {
                 total = 500*i + 100*j + 50*k;
                 if (total == X) ++ans;
