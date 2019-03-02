@@ -5,8 +5,8 @@ using namespace std;
 
 int main(){
     int N, M;
-    int X[10005];
-    int diff[10005];
+    int X[100005];
+    int diff[100005];
     cin >> N >> M;
     for (int i = 0; i < M; ++i) cin >> X[i];
 
